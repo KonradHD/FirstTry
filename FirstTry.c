@@ -31,7 +31,7 @@ int main(void) {
         printf("Za duża liczba");
     }
     return 0;
-}
+}     
 
 void srednia(int tab[], int n, float tab2[], float sum, float x, float size){
     for(int lim = 200, j = 0; lim <= 1000; lim += 100, j++){
@@ -49,5 +49,5 @@ void srednia(int tab[], int n, float tab2[], float sum, float x, float size){
         }
         size = 0;
         sum = 0;
-    }
+    }//jakis komentarz
 }
